@@ -19,7 +19,7 @@ function Navbar() {
           {
             clicked ? (
               <>
-                <div className="flex flex-col absolute top-full right-0 sm:hidden">
+                <div className='flex flex-col absolute sm:relative top-full right-0 sm:hidden'>
                   <a className="p-3 bg-slate-200 hover:bg-slate-300 cursor-pointer" href='#about'>About</a>
                   <a className="p-3 bg-slate-200 hover:bg-slate-300 cursor-pointer" href='#projects'>Projects</a>
                   <a className="p-3 bg-slate-200 hover:bg-slate-300 cursor-pointer" href='#contact'>Contact</a>
