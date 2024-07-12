@@ -9,7 +9,7 @@ function Footer() {
     <div className='bg-gray-300'>
         <div className='p-5'>
             <div className='flex justify-center'>
-                <div className='flex justify-evenly m-5 p-5 w-[40%] '>
+                <div className='flex justify-evenly sm:m-5 sm:p-5 sm:w-[40%] w-full'>
                     <a className='group transition duration-300 p-2 cursor-pointer'>Home
                         <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black"></span>
                     </a> 
@@ -22,16 +22,16 @@ function Footer() {
                 </div> 
             </div>
 
-            <div className='flex justify-center  p-5 m-5'>
-                <div className='flex w-[30%] justify-evenly'>
-                    <FaFacebook className='w-[50px] h-[50px] cursor-pointer'/>
-                    <FaLinkedin  className='w-[50px] h-[50px] cursor-pointer'/>
-                    <FaFacebookMessenger  className='w-[50px] h-[50px] cursor-pointer'/>
-                    <FaSquareXTwitter  className='w-[50px] h-[50px] cursor-pointer'/>
+            <div className='flex justify-center p-5 m-5'>
+                <div className='flex w-full sm:w-[30%] justify-evenly'>
+                    <FaFacebook className='w-[30px] h-[30px] sm:w-[50px] sm:h-[50px] cursor-pointer'/>
+                    <FaLinkedin  className='w-[30px] h-[30px] sm:w-[50px] sm:h-[50px] cursor-pointer'/>
+                    <FaFacebookMessenger  className='w-[30px] h-[30px] sm:w-[50px] sm:h-[50px] cursor-pointer'/>
+                    <FaSquareXTwitter  className='w-[30px] h-[30px] sm:w-[50px] sm:h-[50px] cursor-pointer'/>
                 </div>
             </div>
 
-            <div className='flex justify-center p-5 m-5'>
+            <div className='flex justify-center sm:p-5 sm:m-5'>
                 <p>&copy; 2024 Company Ltd. All rights reserved</p>
             </div>
         </div>
