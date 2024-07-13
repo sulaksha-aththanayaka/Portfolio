@@ -1,5 +1,6 @@
 import React from 'react'
 import software from '../../assets/softwareProject.png'
+import { Link } from 'react-router-dom';
 
 
 function ProjectCard({id, img, name, intro}) {
@@ -34,7 +35,7 @@ function ProjectCard({id, img, name, intro}) {
                         <p className=''>{intro}</p>
                     </div>
                     <div className='text-white p-2 sm:p-5 flex justify-center sm:justify-normal'>
-                        <button className='bg-button-green p-2 rounded-lg hover:bg-[#1d4e4b]'>Read More</button>
+                        <button className='bg-button-green p-2 rounded-lg hover:bg-[#1d4e4b]'><Link to="/Portfolio/project">Read More</Link></button>
                     </div>
                 </div>
             </div>

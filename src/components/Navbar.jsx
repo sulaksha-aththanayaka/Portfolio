@@ -7,8 +7,8 @@ function Navbar() {
   const [clicked, setClicked] = useState(false);
 
   return (
-    <div className="z-20 fixed w-full bg-white">
-      <div className="h-[100%] flex items-center lg:justify-around justify-between w-full px-4 sm:px-8 lg:px-16 py-2">
+    <div className="z-20 fixed top-0 w-full bg-white">
+      <div className="flex items-center lg:justify-around justify-between w-full px-4 sm:px-8 lg:px-16 py-2">
         <div className="w-[40%]">
           <div className="md:ml-5 w-[34px] sm:w-[40px] md:w-[50px]">
             <a href="/"><img src={logo} /></a>
