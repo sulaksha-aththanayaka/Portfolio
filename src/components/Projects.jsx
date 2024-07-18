@@ -8,7 +8,7 @@ function Projects() {
     <div id="projects" className="bg-green-400">
       {
         projects.map((project, index) => (
-          <ProjectCard id={project.id} img={project.img} name={project.name} intro={project.intro} key={index}/>
+          <ProjectCard id={project.id} tech={project.tech} title={project.title} img={project.img} name={project.name} intro={project.intro} key={index}/>
         ))
       }
     </div>

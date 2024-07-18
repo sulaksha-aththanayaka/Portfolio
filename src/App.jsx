@@ -3,7 +3,7 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Project from './pages/Project';
+import Pos from './projects/Pos';
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/Portfolio" element={<Home />} />
-          <Route path="/Portfolio/project" element={<Project />} />
+          <Route path="/Portfolio/pos" element={<Pos />} />
         </Routes>
         <Footer />
     </BrowserRouter>

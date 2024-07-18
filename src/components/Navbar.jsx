@@ -7,14 +7,14 @@ function Navbar() {
   const [clicked, setClicked] = useState(false);
 
   return (
-    <div className="z-20 fixed top-0 w-full bg-white">
-      <div className="flex items-center lg:justify-around justify-between w-full px-4 sm:px-8 lg:px-16 py-2">
+    <div className="z-20 fixed top-0 w-full h-[48px] bg-white">
+      <div className="flex items-center lg:justify-around justify-between w-full h-full px-4 sm:px-8 lg:px-16">
         <div className="w-[40%]">
           <div className="md:ml-5 w-[34px] sm:w-[40px] md:w-[50px]">
             <a href="/"><img src={logo} /></a>
           </div>
         </div>
-        <div className="relative" onClick={() => setClicked(!clicked)}>
+        <div className="relative " onClick={() => setClicked(!clicked)}>
           <GiHamburgerMenu size={'30px'} className="sm:hidden cursor-pointer"/>
           {
             clicked ? (
@@ -29,18 +29,18 @@ function Navbar() {
             ) : (<></>)
           }
         </div>
-        <div className="w-[60%] sm:flex justify-evenly text-buton-green text-md md:text-lg mr-2 h-full hidden">
+        <div className="w-[60%] sm:flex sm:justify-evenly text-button-green text-md md:text-lg mr-2 hidden h-full">
             <div className="hover:bg-[#286f6c] hover:text-white transition duration-700 cursor-pointer ease-in-out capitalize">
-              <a href="#about" className="block h-full w-full p-3">about</a>
+              <a href="#about" className="block w-full p-3">about</a>
             </div>
             <div className="hover:bg-[#286f6c] hover:text-white transition duration-700 cursor-pointer ease-in-out capitalize">
-              <a href="#projects" className="block h-full w-full p-3">projects</a>
+              <a href="#projects" className="block w-full p-3">projects</a>
             </div>
             <div className="hover:bg-[#286f6c] hover:text-white transition duration-700 cursor-pointer ease-in-out capitalize">
-              <a href="#contact" className="block h-full w-full p-3">contact</a>
+              <a href="#contact" className="block w-full p-3">contact</a>
             </div>
             <div className="hover:bg-[#286f6c] hover:text-white transition duration-700 cursor-pointer ease-in-out capitalize">
-              <a href="#experience" className="block h-full w-full p-3">experience</a>
+              <a href="#experience" className="block w-full p-3">experience</a>
             </div>
         </div>
  
