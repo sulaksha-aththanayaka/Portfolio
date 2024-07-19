@@ -32,7 +32,7 @@ function Footer() {
             </div>
 
             <div className='flex justify-center sm:p-5 sm:m-5'>
-                <p>&copy; 2024 Company Ltd. All rights reserved</p>
+                <p>&copy; 2024 Sulaksha Aththanayaka</p>
             </div>
         </div>
     </div>

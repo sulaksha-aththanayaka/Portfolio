@@ -3,8 +3,8 @@ import img1 from '../assets/POS_img_1.webp'
 
 function Pos() {
   return (
-    <div className='mt-12 px-64 py-6 text-lg bg-gray-200c'>
-        <h1 className='font-bold italic text-3xl text-center pb-6'>Sales Management System | happysales.lk</h1>
+    <div className='mt-12 px-5 sm:px-64 py-6 sm:text-lg bg-gray-200'>
+        <h1 className='font-bold italic text-xl sm:text-3xl text-center pb-6'>Sales Management System | happysales.lk</h1>
 
         <div className='flex justify-center pb-6'>
             <img src={img1}/>
